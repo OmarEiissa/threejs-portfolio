@@ -46,14 +46,6 @@ const Contact = () => {
         type: "success",
       });
 
-      setTimeout(() => {
-        hideAlert();
-        setForm({
-          name: "",
-          email: "",
-          message: "",
-        });
-      }, [3000]);
     } catch (error) {
       setLoading(false);
       console.log(error);
