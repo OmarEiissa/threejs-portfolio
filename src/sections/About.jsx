@@ -2,8 +2,8 @@ import Globe from "react-globe.gl";
 import Button from "../components/Button";
 import { useState } from "react";
 
-import useAlert from "../hooks/useAlert.js";
-import Alert from "../components/Alert.jsx";
+import useAlert from "../hooks/useAlert";
+import Alert from "../components/Alert";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
