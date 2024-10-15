@@ -1,4 +1,4 @@
-import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
+import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import HackerRoom from "../components/HackerRoom";
 import { Suspense } from "react";
@@ -53,7 +53,7 @@ const Hero = () => {
               <Rings position={sizes.ringPosition} />
             </group>
 
-            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+            {/* <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} /> */}
 
             <ambientLight intensity={1} />
             <directionalLight position={(10, 10, 10)} intensity={0.5} />

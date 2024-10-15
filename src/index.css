@@ -195,3 +195,19 @@ body {
     transform: rotate(0deg);
   }
 }
+
+::-webkit-scrollbar {
+  @apply w-2 h-2
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-black-300 rounded-sm
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white-500 rounded-sm
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
